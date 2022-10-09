@@ -7,11 +7,11 @@ But there's a problem. Our crew members are all very very lazy and can't be both
 
 They also count on you to help ARDITO complete its mission.
 
-Thanks to the images coming from _**DIOMIO** (**DI**ANA **O**rbiter for **M**ars **I**mprobable **O**bservations)_ they found out **nine** points of interest around their base in which it could be interesting to execute soil analysis. You need to instruct ARDITO about the path to reach all marked points and then come back to the base as soon as possible as our crew members are also very anxious and won't go to sleep until their precious rover is back safe and sound.
+Thanks to the images coming from the orbiter they found out some points of interest around their base in which it could be interesting to execute soil analysis. You need to instruct ARDITO about the path to reach all marked points and then come back to the base as soon as possible as our crew members are also very anxious and won't go to sleep until their precious rover is back safe and sound.
 
 
 ## Software Requirements
-In the file ```points.txt``` you will find the coordinates of the points, one for each line, in the form ```[x], [y]``` (you can assume the unit of measure as meters). The first point is the starting point ```0.0, 0.0```. Each point is implicitly identified by its position in the file, starting from point 0 (so that at the 3rd line you will have point n°2, at the 4th line you have point n°3 and so on up until point n°9).
+In the file ```points.txt``` you will find the coordinates of the points, one for each line, in the form ```[x], [y]``` (you can assume the unit of measure as meters). The center of the coordinate system ```(0.0, 0.0)``` represents the base. Each point is implicitly identified by its position in the file, starting from point 0 (so that at the 3rd line you will have point n°2, at the 4th line you have point n°3 and so on).
 
 Write a program, in whichever language you prefer, which reads from ```points.txt``` (do not hardcode the points in the code) to compute the shortest possible path which starts at the starting point, reaches all of the requested coordinates and ends back to the starting point. Assume no obstacles on the terrain (ARDITO is really tough, it has not fear to traverse on rocks and craters).
 
