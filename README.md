@@ -60,5 +60,9 @@ Your program should be able to:
 
 *Final advice*: even if you do not manage to complete the program in time, send us what you have done so far - doing something is better than doing nothing!
 
+## More Hints
+- [here](docs/Build%20Instructions.md) you can find instructions if you need to build the executable (for example if you need to run it on Linux)
+- [here](docs/Mqtt.md) you can find some more hints on how to connect to mqtt
+- 
 Good luck, and have fun! 
 This is a unique opportunity to challenge yourself!
