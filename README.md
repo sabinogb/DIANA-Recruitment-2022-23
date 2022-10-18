@@ -8,7 +8,7 @@ For each permutation, the total distance is then computed by summing the euclide
 > [...] the shortest possible path that starts at a given point, reaches all of the requested coordinates and ends back to the starting point. [...]
 
 ## Algorithm for permutations
-The algorithms is recursive and has a complexity of **O(n!)**.
+The algorithm is recursive and has a complexity of **O(n!)**.
 
 At the termination condition, the function checks wether the newly found path is shorter than any other paths previously found, and keeps track of the shortest path accordingly.
 
